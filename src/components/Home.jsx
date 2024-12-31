@@ -9,8 +9,8 @@ const Home = ({ id }) => {
         <div>
           <h1 className="text-D_Gray sm:text-5xl sm:text-left text-4xl text-center font-semibold">
             Sejam
-            <span className="text-primaryColor"> <br/>
-            Bem Vindos!!
+            <span className="text-primaryColor"> <br />
+              Bem Vindos!!
             </span>
           </h1>
           <p className="text-gray mb-2 text-xs sm:text-sm">Acesse o catálogo para ver as novidades.</p>
@@ -21,7 +21,13 @@ const Home = ({ id }) => {
         <div>
           <img className="w-72" src={imageGirl} alt="#" />
         </div>
-        <a href="#produtos"><img className="absolute bottom-7 left-0 right-0 mx-auto" src={arrow} alt="ver produtos"/></a>
+        <a
+          href="#produtos"
+          className="absolute bottom-7 left-0 right-0 mx-auto w-max"
+        >
+          <img src={arrow} alt="ver produtos" />
+        </a>
+
       </div>
     </div>
   )
