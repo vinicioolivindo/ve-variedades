@@ -1,4 +1,4 @@
-import CardCategoria from "./CardCategoria";
+import CardCategoria from "./CardCategory";
 
 // eslint-disable-next-line react/prop-types
 const Catalogo = ({ id }) => {
@@ -28,7 +28,7 @@ const Catalogo = ({ id }) => {
         <div id={id} className="max-w-6xl m-auto w-full flex flex-col items-center justify-between px-5">
             <h2 className="text-D_Gray text-xl text-center font-semibold my-5">Catálogo</h2>
 
-            <div className="block lg:grid grid-cols-2 gap-4 ">
+            <div className="block lg:grid grid-cols-2 gap-4 w-full">
 
                 {/* Div 1 */}
                 <div>
