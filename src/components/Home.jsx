@@ -6,7 +6,7 @@ import Button from "./Button";
 const Home = ({ id }) => {
   return (
     <div id={id} className="bg-silver h-screen flex items-center justify-center">
-      <div className="max-w-6xl w-full flex items-center sm:flex-row flex-col gap-3 sm:gap-0 justify-between px-5">
+      <div className="mb-10 max-w-6xl w-full flex items-center sm:flex-row flex-col gap-3 sm:gap-0 justify-between px-5">
         <div className="flex flex-col items-center sm:items-start">
           <h1 className="text-D_Gray sm:text-5xl sm:text-left text-4xl text-center font-semibold">
             Sejam

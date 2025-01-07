@@ -35,7 +35,7 @@ const Header = () => {
                             <Question className="sm:hidden" size={24} />
                         </a></li>
                     </ul>
-                    <Button color={"bg-secondaryColor"}>
+                    <Button link="https://wa.me/558894859101" color={"bg-secondaryColor"}>
                         <p className="hidden sm:block">Contato direto</p>
                         <WhatsappLogo size={20} />
                     </Button>

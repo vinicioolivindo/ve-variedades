@@ -15,13 +15,15 @@ const Footer = () => {
                     <span className="text-white font-semibold">José Vinício</span>
                 </div>
                 <ul className="flex text-white gap-3">
-                    <li className="bg-silver_10 w-7 h-7 flex items-center justify-center rounded-full"><a href="">
+                    <li className="bg-silver_10 w-7 h-7 flex items-center justify-center rounded-full"><a href="https://www.instagram.com/vinnykkkkj"
+                    target="_blank">
                         <InstagramIcon size={20}/>
                     </a></li>
-                    <li className="bg-silver_10 w-7 h-7 flex items-center justify-center rounded-full"><a href="">
+                    <li className="bg-silver_10 w-7 h-7 flex items-center justify-center rounded-full"><a href="https://www.linkedin.com/in/josé-vinicio-olivindo-dias-7b81b320b/"
+                    target="_blank">
                         <Linkedin size={20}/>
                     </a></li>
-                    <li className="bg-silver_10 w-7 h-7 flex items-center justify-center rounded-full"><a href="">
+                    <li className="bg-silver_10 w-7 h-7 flex items-center justify-center rounded-full"><a href="https://github.com/vinicioolivindo" target="_blank">
                         <Github size={20}/>
                     </a></li>
                 </ul>

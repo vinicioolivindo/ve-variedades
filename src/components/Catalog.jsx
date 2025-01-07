@@ -1,27 +1,30 @@
 import CardCategoria from "./CardCategory";
+import { useNavigate } from "react-router-dom"
 
 // eslint-disable-next-line react/prop-types
 const Catalogo = ({ id }) => {
 
     const catRoupas = [
-        { titulo: "BLUSAS", bgColor: "bg-silver", spanCols: "col-span-2", spanRows: "row-span-1"},
-        { titulo: "MOLETOM", bgColor: "bg-blue", spanCols: "col-span-1", spanRows: "row-span-1"},
-        { titulo: "CONJUNTO", bgColor: "bg-yellow", spanCols: "col-span-1", spanRows: "row-span-1"},
-        { titulo: "SHORTS", bgColor: "bg-bown", spanCols: "col-span-1", spanRows: "row-span-1"},
-        { titulo: "PEÇAS ÍNTIMAS", bgColor: "bg-green", spanCols: "col-span-1", spanRows: "row-span-1"},
-        { titulo: "PIJAMAS", bgColor: "bg-rose", spanCols: "col-span-2", spanRows: "row-span-1"},
+        { titulo: "Blusas", tituloId: "blusas", bgColor: "bg-silver", spanCols: "col-span-2", spanRows: "row-span-1" },
+        { titulo: "Moletom", tituloId: "moletom", bgColor: "bg-blue", spanCols: "col-span-1", spanRows: "row-span-1" },
+        { titulo: "Conjunto", tituloId: "conjunto", bgColor: "bg-yellow", spanCols: "col-span-1", spanRows: "row-span-1" },
+        { titulo: "Shorts", tituloId: "shorts", bgColor: "bg-bown", spanCols: "col-span-1", spanRows: "row-span-1" },
+        { titulo: "Peças íntimas", tituloId: "pecas-intimas", bgColor: "bg-green", spanCols: "col-span-1", spanRows: "row-span-1" },
+        { titulo: "Pijamas", tituloId: "pijamas", bgColor: "bg-rose", spanCols: "col-span-2", spanRows: "row-span-1" },
     ];
 
     const catBijuterias = [
-        { titulo: "AÇOS E FOLHEADOS", bgColor: "bg-blue", spanCols: "col-span-2", spanRows: "row-span-1"},
-    ]
+        { titulo: "Aços e folheados", tituloId: "acos-e-folheados", bgColor: "bg-blue", spanCols: "col-span-2", spanRows: "row-span-1" },
+    ];
 
     const catCasaMesaeBanho = [
-        { titulo: "TOALHAS", bgColor: "bg-silver", spanCols: "col-span-2", spanRows: "row-span-1"},
-        { titulo: "LENÇOIS", bgColor: "bg-blue", spanCols: "col-span-1", spanRows: "row-span-1"},
-        { titulo: "PANO DE PRATO", bgColor: "bg-yellow", spanCols: "col-span-1", spanRows: "row-span-1"},
-        { titulo: "COLCHA DE CAMA", bgColor: "bg-bown", spanCols: "col-span-2", spanRows: "row-span-1"},
-    ]
+        { titulo: "Toalhas", tituloId: "toalhas", bgColor: "bg-silver", spanCols: "col-span-2", spanRows: "row-span-1" },
+        { titulo: "Lençois", tituloId: "lencois", bgColor: "bg-blue", spanCols: "col-span-1", spanRows: "row-span-1" },
+        { titulo: "Pano de prato", tituloId: "pano-de-prato", bgColor: "bg-yellow", spanCols: "col-span-1", spanRows: "row-span-1" },
+        { titulo: "Colcha de cama", tituloId: "colcha-de-cama", bgColor: "bg-bown", spanCols: "col-span-2", spanRows: "row-span-1" },
+    ];
+
+    const navigate = useNavigate();
 
 
     return (
@@ -42,7 +45,11 @@ const Catalogo = ({ id }) => {
                                 spanCols={categoria.spanCols}
                                 spanRows={categoria.spanRows}
                                 exibirBotao={categoria.exibirBotao}
+                                onClick={() => {
+                                    navigate(`/produto/${categoria.tituloId}`); // Usa o título padronizado como ID na URL
+                                }}
                             />
+
                         ))}
                     </div>
                 </div>
@@ -59,6 +66,9 @@ const Catalogo = ({ id }) => {
                                 spanCols={categoria.spanCols}
                                 spanRows={categoria.spanRows}
                                 exibirBotao={categoria.exibirBotao}
+                                onClick={() => {
+                                    navigate(`/produto/${categoria.tituloId}`); // Usa o título padronizado como ID na URL
+                                }}
                             />
                         ))}
                     </div>
@@ -76,6 +86,9 @@ const Catalogo = ({ id }) => {
                                 spanCols={categoria.spanCols}
                                 spanRows={categoria.spanRows}
                                 exibirBotao={categoria.exibirBotao}
+                                onClick={() => {
+                                    navigate(`/produto/${categoria.tituloId}`); // Usa o título padronizado como ID na URL
+                                }}
                             />
                         ))}
                     </div>

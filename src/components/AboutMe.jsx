@@ -13,15 +13,17 @@ const SobreMim = ({ id }) => {
                     <img src={circle} alt="image perfil" />
                 </div>
                 <div className="flex flex-col gap-3 p-4 w-80">
-                    <Button color={'bg-secondaryColor'}>
+                    <Button link="https://wa.me/558894859101" color={'bg-secondaryColor'}>
                         <p>Contato direto</p>
                         <WhatsappLogo size={25} />
                     </Button>
-                    <Button color={'bg-gradiantInsta'}>
+
+                    <Button link="https://www.instagram.com/ve_olivindo" color={'bg-gradiantInsta'}>
                         <p>Siga-me no Insta</p>
                         <InstagramLogo size={25} />
                     </Button>
-                    <Button color={'bg-D_Blue'}>
+
+                    <Button link="https://www.facebook.com/veronica.olivindo" color={'bg-D_Blue'}>
                         <p>Veja meu Face</p>
                         <FacebookLogo size={25} />
                     </Button>
