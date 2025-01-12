@@ -12,7 +12,7 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/produto/:tituloId",
+    path: "/:categoria/:tituloId",
     element: <Product />, // Página que usará o parâmetro dinâmico
   },
 ]);

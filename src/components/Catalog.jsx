@@ -4,24 +4,20 @@ import { useNavigate } from "react-router-dom"
 // eslint-disable-next-line react/prop-types
 const Catalogo = ({ id }) => {
 
-    const catRoupas = [
-        { titulo: "Blusas", tituloId: "blusas", bgColor: "bg-silver", spanCols: "col-span-2", spanRows: "row-span-1" },
-        { titulo: "Moletom", tituloId: "moletom", bgColor: "bg-blue", spanCols: "col-span-1", spanRows: "row-span-1" },
-        { titulo: "Conjunto", tituloId: "conjunto", bgColor: "bg-yellow", spanCols: "col-span-1", spanRows: "row-span-1" },
-        { titulo: "Shorts", tituloId: "shorts", bgColor: "bg-bown", spanCols: "col-span-1", spanRows: "row-span-1" },
+    const Roupas = [
+        { titulo: "Conjunto Langeries", tituloId: "conj-langeries", bgColor: "bg-silver", spanCols: "col-span-2", spanRows: "row-span-1" },
+        { titulo: "Shorts Masculinos", tituloId: "shorts-masc", bgColor: "bg-bown", spanCols: "col-span-1", spanRows: "row-span-1" },
         { titulo: "Peças íntimas", tituloId: "pecas-intimas", bgColor: "bg-green", spanCols: "col-span-1", spanRows: "row-span-1" },
         { titulo: "Pijamas", tituloId: "pijamas", bgColor: "bg-rose", spanCols: "col-span-2", spanRows: "row-span-1" },
     ];
 
-    const catBijuterias = [
+    const Bijuterias = [
         { titulo: "Aços e folheados", tituloId: "acos-e-folheados", bgColor: "bg-blue", spanCols: "col-span-2", spanRows: "row-span-1" },
     ];
 
-    const catCasaMesaeBanho = [
+    const CamaMesaBanho = [
         { titulo: "Toalhas", tituloId: "toalhas", bgColor: "bg-silver", spanCols: "col-span-2", spanRows: "row-span-1" },
-        { titulo: "Lençois", tituloId: "lencois", bgColor: "bg-blue", spanCols: "col-span-1", spanRows: "row-span-1" },
-        { titulo: "Pano de prato", tituloId: "pano-de-prato", bgColor: "bg-yellow", spanCols: "col-span-1", spanRows: "row-span-1" },
-        { titulo: "Colcha de cama", tituloId: "colcha-de-cama", bgColor: "bg-bown", spanCols: "col-span-2", spanRows: "row-span-1" },
+        { titulo: "Colcha de cama", tituloId: "colcha-de-cama", bgColor: "bg-rose", spanCols: "col-span-1", spanRows: "row-span-1" },
     ];
 
     const navigate = useNavigate();
@@ -36,8 +32,8 @@ const Catalogo = ({ id }) => {
                 {/* Div 1 */}
                 <div>
                     <h3 className="w-full bg-primaryColor text-white text-xl font-semibold pl-12 rounded">Roupas</h3>
-                    <div className="grid sm:grid-cols-4 gap-4 p-4">
-                        {catRoupas.map((categoria, index) => (
+                    <div className="grid sm:grid-cols-3 sm:grid-rows-2 gap-4 p-4 md:max-w-lg m-auto">
+                        {Roupas.map((categoria, index) => (
                             <CardCategoria
                                 key={index}
                                 titulo={categoria.titulo}
@@ -46,7 +42,7 @@ const Catalogo = ({ id }) => {
                                 spanRows={categoria.spanRows}
                                 exibirBotao={categoria.exibirBotao}
                                 onClick={() => {
-                                    navigate(`/produto/${categoria.tituloId}`); // Usa o título padronizado como ID na URL
+                                    navigate(`/Roupas/${categoria.tituloId}`); // Usa o título padronizado como ID na URL
                                 }}
                             />
 
@@ -57,8 +53,8 @@ const Catalogo = ({ id }) => {
                 {/* Div 2 */}
                 <div>
                     <h3 className="w-full bg-primaryColor text-white text-xl font-semibold pl-12 rounded">Bijuterias</h3>
-                    <div className="grid grid-cols-4 gap-4 p-4">
-                        {catBijuterias.map((categoria, index) => (
+                    <div className="grid grid-cols-4 gap-4 p-4 md:max-w-lg m-auto">
+                        {Bijuterias.map((categoria, index) => (
                             <CardCategoria
                                 key={index}
                                 titulo={categoria.titulo}
@@ -67,7 +63,7 @@ const Catalogo = ({ id }) => {
                                 spanRows={categoria.spanRows}
                                 exibirBotao={categoria.exibirBotao}
                                 onClick={() => {
-                                    navigate(`/produto/${categoria.tituloId}`); // Usa o título padronizado como ID na URL
+                                    navigate(`/Bijuterias/${categoria.tituloId}`); // Usa o título padronizado como ID na URL
                                 }}
                             />
                         ))}
@@ -78,7 +74,7 @@ const Catalogo = ({ id }) => {
                 <div className="col-span-2">
                     <h3 className="w-full bg-primaryColor text-white text-xl font-semibold pl-12 rounded">Cama, mesa e banho</h3>
                     <div className="grid sm:grid-cols-3 sm:grid-rows-2 gap-4 p-4 md:max-w-lg m-auto">
-                        {catCasaMesaeBanho.map((categoria, index) => (
+                        {CamaMesaBanho.map((categoria, index) => (
                             <CardCategoria
                                 key={index}
                                 titulo={categoria.titulo}
@@ -87,7 +83,7 @@ const Catalogo = ({ id }) => {
                                 spanRows={categoria.spanRows}
                                 exibirBotao={categoria.exibirBotao}
                                 onClick={() => {
-                                    navigate(`/produto/${categoria.tituloId}`); // Usa o título padronizado como ID na URL
+                                    navigate(`/CamaMesaBanho/${categoria.tituloId}`); // Usa o título padronizado como ID na URL
                                 }}
                             />
                         ))}

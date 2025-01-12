@@ -1,0 +1,111 @@
+{
+    "categories": [
+        {
+            "name": "Roupas",
+            "subcategories": [
+                {
+                    "nameId": "conj-langeries",
+                    "nameProd": "Conjunto Langeries",
+                    "items": [
+                        {
+                            "imagem": "https://i.postimg.cc/85D3zPRb/Cat-and-dog-rafiki.png",
+                            "tamanho": "P",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.im.ge/2024/07/17/V3qAKL.blusaMasc-P.jpeg",
+                            "tamanho": "P",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.im.ge/2024/07/17/V3qAKL.blusaMasc-P.jpeg",
+                            "tamanho": "P",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.im.ge/2024/07/17/V3qAKL.blusaMasc-P.jpeg",
+                            "tamanho": "P",
+                            "valor": 40.00
+                        }
+                    ]
+                },
+                {
+                    "nameId": "shorts-masc",
+                    "nameProd": "Shorts Masculinos",
+                    "items": [
+                        {
+                            "imagem": "https://i.im.ge/2024/07/17/V3qAKL.blusaMasc-P.jpeg",
+                            "tamanho": "P",
+                            "valor": 40.00
+                        }
+                    ]
+                },
+                {
+                    "nameId": "pecas-intimas",
+                    "nameProd": "Peças Íntimas",
+                    "items": [
+                        {
+                            "imagem": "https://i.im.ge/2024/07/17/V3qAKL.blusaMasc-P.jpeg",
+                            "tamanho": "P",
+                            "valor": 40.00
+                        }
+                    ]
+                },
+                {
+                    "nameId": "pijamas",
+                    "nameProd": "Pijamas",
+                    "items": [
+                        {
+                            "imagem": "https://i.im.ge/2024/07/17/V3qAKL.blusaMasc-P.jpeg",
+                            "tamanho": "P",
+                            "valor": 40.00
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bijuterias",
+            "subcategories": [
+                {
+                    "nameId": "acos-e-folheados",
+                    "nameProd": "Aços e Folheados",
+                    "items": [
+                        {
+                            "imagem": "https://i.im.ge/2024/07/17/V3qAKL.blusaMasc-P.jpeg",
+                            "tamanho": "P",
+                            "valor": 40.00
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "CamaMesaBanho",
+            "subcategories": [
+                {
+                    "nameId": "toalhas",
+                    "nameProd": "Toalhas de Banho",
+                    "items": [
+                        {
+                            "imagem": "https://i.im.ge/2024/07/17/V3qAKL.blusaMasc-P.jpeg",
+                            "tamanho": "P",
+                            "valor": 40.00
+                        }
+                    ]
+                },
+                {
+                    "nameId": "colcha-de-cama",
+                    "nameProd": "Colcha de Cama",
+                    "items": [
+                        {
+                            "imagem": "https://i.im.ge/2024/07/17/V3qAKL.blusaMasc-P.jpeg",
+                            "tamanho": "P",
+                            "valor": 40.00
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

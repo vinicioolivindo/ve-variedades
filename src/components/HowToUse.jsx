@@ -2,7 +2,7 @@ import Button from "./Button";
 
 const HowToUse = () => {
   return (
-    <div className="max-w-sm bg-silver p-4 rounded-xl text-D_Gray m-4">
+    <div className="max-w-sm bg-silver p-4 rounded-xl text-D_Gray m-4 mb-10">
       <h2 className="text-lg text-center font-semibold">Com ultilizar o site:)</h2>
       <p className="text-sm">O site foi pensado e desenvolvido para ser usado da maneira mais simples e intuitiva.
       </p>
