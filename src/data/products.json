@@ -8,7 +8,7 @@
                     "nameProd": "Conjunto Langeries",
                     "items": [
                         {
-                            "imagem": "https://i.postimg.cc/85D3zPRb/Cat-and-dog-rafiki.png",
+                            "imagem": "../src/assets/girlHello.png",
                             "tamanho": "P",
                             "valor": 40.00
                         },
