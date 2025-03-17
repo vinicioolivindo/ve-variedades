@@ -9,7 +9,7 @@ const SobreMim = ({ id }) => {
             <h2 className=" text-D_Gray text-xl font-semibold text-center my-5">Sobre Mim</h2>
             <div className="max-w-6xl m-auto w-full flex flex-col md:flex-row items-center justify-center ">
                 <div className="flex flex-col items-center">
-                    <p className="sm:max-w-sm max-w-xs text-gray mb-2 text-center text-xs sm:text-sm">Olá, Me chamo Veronica e sou uma vendedora autodidata, lhe fornecendo os melhores itens para você ou para presentear quem você ama!!</p>
+                    <p className="sm:max-w-sm max-w-xs text-gray mb-2 text-center text-xs sm:text-sm">Olá! Meu nome é Veronica e sou uma vendedora autodidata, dedicada a oferecer os melhores produtos para você ou para presentear quem você ama. Conte comigo para encontrar o item perfeito!</p>
                     <img src={circle} alt="image perfil" />
                 </div>
                 <div className="flex flex-col gap-3 p-4 w-80">

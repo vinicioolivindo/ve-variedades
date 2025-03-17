@@ -8,35 +8,221 @@
                     "nameProd": "Conjunto Langeries",
                     "items": [
                         {
-                            "imagem": "../src/assets/girlHello.png",
+                            "imagem": "https://i.postimg.cc/Wbsfmkqz/IMG-20250109-120933.jpg",
                             "tamanho": "P",
                             "valor": 40.00
                         },
                         {
-                            "imagem": "https://i.im.ge/2024/07/17/V3qAKL.blusaMasc-P.jpeg",
+                            "imagem": "https://i.postimg.cc/NFjmFBLs/IMG-20250109-121227.jpg",
                             "tamanho": "P",
                             "valor": 40.00
                         },
                         {
-                            "imagem": "https://i.im.ge/2024/07/17/V3qAKL.blusaMasc-P.jpeg",
+                            "imagem": "https://i.postimg.cc/VsKXTrHd/IMG-20250109-121334.jpg",
                             "tamanho": "P",
                             "valor": 40.00
                         },
                         {
-                            "imagem": "https://i.im.ge/2024/07/17/V3qAKL.blusaMasc-P.jpeg",
+                            "imagem": "https://i.postimg.cc/NFCTrSr1/IMG-20250109-121621.jpg",
+                            "tamanho": "P",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/k5WxhTkm/IMG-20250109-121810.jpg",
+                            "tamanho": "P",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/7YQMCGgp/IMG-20250109-122140.jpg",
+                            "tamanho": "P",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/g2CVDCts/IMG-20250109-122344.jpg",
+                            "tamanho": "P",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/NM7kLd44/IMG-20250109-122501.jpg",
+                            "tamanho": "P",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/BQvBQc1T/IMG-20250109-122916.jpg",
+                            "tamanho": "M",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/Px41dPXV/IMG-20250109-123111.jpg",
+                            "tamanho": "P, M",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/K8k7tGf4/IMG-20250109-123426.jpg",
+                            "tamanho": "P, M",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/ZRZrkrSy/IMG-20250109-123527.jpg",
+                            "tamanho": "M",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/3r1ZTbWr/IMG-20250109-123619.jpg",
+                            "tamanho": "M",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/1Xv0r4bV/IMG-20250109-123950.jpg",
+                            "tamanho": "M",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/FRQx9Mjz/IMG-20250109-124024.jpg",
+                            "tamanho": "P",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/BbScF27G/IMG-20250109-124046.jpg",
+                            "tamanho": "M",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/N0X4vs2Z/IMG-20250109-124203.jpg",
+                            "tamanho": "M",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/g2QD7Xjv/IMG-20250109-124302.jpg",
+                            "tamanho": "M",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/hP4pQRN7/IMG-20250109-124511.jpg",
+                            "tamanho": "M",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/fTH5xghq/IMG-20250109-125540.jpg",
+                            "tamanho": "G",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/QNJfMdY3/IMG-20250109-125703.jpg",
+                            "tamanho": "G",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/Kjffp03z/IMG-20250109-125830.jpg",
+                            "tamanho": "G",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/2SKcf9cL/IMG-20250109-125954.jpg",
+                            "tamanho": "G",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/PxGSCpkt/IMG-20250109-130134.jpg",
+                            "tamanho": "G",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/jSLcvQxx/IMG-20250109-130226.jpg",
+                            "tamanho": "G",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/XvB2NKmH/IMG-20250109-130342.jpg",
+                            "tamanho": "G",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/cLH92GmN/IMG-20250109-130508.jpg",
+                            "tamanho": "G",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/dQ2xTB1g/IMG-20250109-130642.jpg",
+                            "tamanho": "G",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/Dy5pxw1g/IMG-20250109-130822.jpg",
+                            "tamanho": "P",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/GtxgwcVb/IMG-20250109-131120.jpg",
+                            "tamanho": "GG",
+                            "valor": 40.00
+                        }
+                    ]
+                },
+                {
+                    "nameId": "jeans",
+                    "nameProd": "Jeans",
+                    "items": [
+                        {
+                            "imagem": "https://i.postimg.cc/QMqqd6Sq/IMG-20250306-123342.jpg",
+                            "tamanho": "P",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/j5d4wzFY/IMG-20250306-123234.jpg",
+                            "tamanho": "P",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/QMDbsLgt/IMG-20250306-123432.jpg",
+                            "tamanho": "P",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/Kj17Qmb9/IMG-20250306-123541.jpg",
+                            "tamanho": "P",
+                            "valor": 40.00
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/Y9nf1h5G/IMG-20250306-123649.jpg",
                             "tamanho": "P",
                             "valor": 40.00
                         }
                     ]
                 },
                 {
-                    "nameId": "shorts-masc",
-                    "nameProd": "Shorts Masculinos",
+                    "nameId": "lagging-infantil",
+                    "nameProd": "Lagging Infantil",
                     "items": [
                         {
-                            "imagem": "https://i.im.ge/2024/07/17/V3qAKL.blusaMasc-P.jpeg",
+                            "imagem": "https://i.postimg.cc/SN5TBtt2/IMG-20250308-184729.jpg",
                             "tamanho": "P",
-                            "valor": 40.00
+                            "valor": 24.90
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/Fs1CnQGX/IMG-20250308-185636.jpg",
+                            "tamanho": "P",
+                            "valor": 24.90
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/K8Mqxrd9/IMG-20250308-185820.jpg",
+                            "tamanho": "P",
+                            "valor": 24.90
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/wBYWvRz9/IMG-20250308-185953.jpg",
+                            "tamanho": "P",
+                            "valor": 24.90
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/Bv5m1ZZH/IMG-20250308-190129.jpg",
+                            "tamanho": "P",
+                            "valor": 24.90
+                        },
+                        {
+                            "imagem": "https://i.postimg.cc/KzZJ7X4V/IMG-20250308-190243.jpg",
+                            "tamanho": "P",
+                            "valor": 24.90
                         }
                     ]
                 },

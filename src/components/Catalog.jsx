@@ -6,7 +6,8 @@ const Catalogo = ({ id }) => {
 
     const Roupas = [
         { titulo: "Conjunto Langeries", tituloId: "conj-langeries", bgColor: "bg-silver", spanCols: "col-span-2", spanRows: "row-span-1" },
-        { titulo: "Shorts Masculinos", tituloId: "shorts-masc", bgColor: "bg-bown", spanCols: "col-span-1", spanRows: "row-span-1" },
+        { titulo: "Legging Infantil", tituloId: "lagging-infantil", bgColor: "bg-blue", spanCols: "col-span-1", spanRows: "row-span-1"},
+        { titulo: "Jeans", tituloId: "jeans", bgColor: "bg-bown", spanCols: "col-span-1", spanRows: "row-span-2" },
         { titulo: "Peças íntimas", tituloId: "pecas-intimas", bgColor: "bg-green", spanCols: "col-span-1", spanRows: "row-span-1" },
         { titulo: "Pijamas", tituloId: "pijamas", bgColor: "bg-rose", spanCols: "col-span-2", spanRows: "row-span-1" },
     ];
@@ -32,7 +33,7 @@ const Catalogo = ({ id }) => {
                 {/* Div 1 */}
                 <div>
                     <h3 className="w-full bg-primaryColor text-white text-xl font-semibold pl-12 rounded">Roupas</h3>
-                    <div className="grid sm:grid-cols-3 sm:grid-rows-2 gap-4 p-4 md:max-w-lg m-auto">
+                    <div className="grid sm:grid-cols-4 sm:grid-rows-2 gap-4 p-4 md:max-w-2xl m-auto">
                         {Roupas.map((categoria, index) => (
                             <CardCategoria
                                 key={index}
